@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="BlackboardTools.master.cs" Inherits="BlackboardTools" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+
+<html><!-- xmlns="http://www.w3.org/1999/xhtml"-->
+<head runat="server">
+    <title>Blackboard Test Question Generator</title>
+
+    <!-- Style sheet -->
+    <link rel='stylesheet' href='App_Themes/General/css/StyleSheet.css'/>
+    <link rel='stylesheet' href='StyleSheets/blackboardTools.css'/>
+    <link rel='stylesheet' href='StyleSheets/popup.css'/>
+
+    <asp:ContentPlaceHolder id="headContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="formBody" runat="server">
+    <div id="wrapper">
+    	<div id="topbar"> 
+			<div id="topbar-wrap">
+				<div id="topbar-inner">
+					<div id="topmenu">
+                        <asp:ContentPlaceHolder ID="breadCrumbContent" runat="server">
+            
+                        </asp:ContentPlaceHolder>
+                    </div>
+				</div>
+			</div>
+        </div>
+        <div id="header">
+        	<div id="header-wrap">
+				<div id="header-inner">
+                    <p style="text-align:center">
+                        <img src="images/NorthInstitute_OCShield_Artboard%201.png" alt="OC Shield" title="OC North Institute" style="height: 75px;" />
+                    </p>
+                        <h1><a href="#"></a></h1>
+                    <!--<div id="header-title">
+                        <h3>Blackboard Test Question Generator</h3>
+                    </div>-->
+				</div>
+			</div>
+		</div>
+		<div id="body">
+       	 	<div id="body-wrap1">
+         		<div id="body-wrap2">
+                	<div id="content-body">
+                    </div>
+                        <div class="area">
+                            <asp:ContentPlaceHolder id="bodyContent" runat="server">
+        
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+        	</div>
+        </div> 
+        <div id="footer">
+        	<div id="footer-wrap">
+                <div id="footer-inner">
+                    <center>
+                        <br />
+                        Algonquin College &copy; 2012<br />
+                        Modified and used with permission by the North Institute for Teaching and Learning at Oklahoma Christian University.
+                        <br />
+                        For issues related to this application, please <a style="font-weight:bold;" href="mailto:supportcentral@oc.edu?subject=Bb%20Quiz%20Generator" title="contact Support Central">click here</a> to contact Support Central.
+                        <br />
+                        <br />
+                    </center>
+                </div>
+            </div>
+        </div>  
+    </div>
+    </form>
+</body>
+</html>

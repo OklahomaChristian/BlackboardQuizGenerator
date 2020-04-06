@@ -1,0 +1,17 @@
+﻿
+textarea {
+    overflow: hidden;
+    resize: none;   /*Remove the chrome text area resizing*/
+    margin:0;
+    vertical-align: top;
+}
+
+img
+{
+    border:0;
+}
+
+#instructionsTable
+{
+    font-size:smaller;
+}

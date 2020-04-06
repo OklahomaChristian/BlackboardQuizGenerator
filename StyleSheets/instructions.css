@@ -1,0 +1,46 @@
+﻿html,body 
+{
+   font-family: Verdana, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+   font-size:8pt;
+   padding:0;
+   margin:0;
+   border:0;
+   background-color:White;
+   color: #474B47;
+   text-align:center;
+}
+
+div.contentContainer
+{
+    width:900px;
+    margin:auto;
+    
+}
+
+div.contentBlock
+{
+    margin: 5px 0px 10px 2px;
+    width:90%;
+    height: 100%;
+}
+
+div.blockHeader
+{
+    text-align:left;
+    background-color:#CECECE;
+    font-weight:bold;
+    padding: 5px;
+    margin-bottom:10px;
+}
+
+div.blockContent
+{
+    background-color:#ffffff;
+    text-align:left;
+    padding: 0px 10px 0px 10px;
+}
+
+div.blockExample
+{
+    padding-left:10px;
+}

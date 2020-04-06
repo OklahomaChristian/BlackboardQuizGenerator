@@ -1,0 +1,234 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+      <!-- Style sheet -->
+    <link rel='stylesheet' href='StyleSheets/instructions.css'/>
+    <title>Blackboard Quiz Generator Instructions</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="contentContainer">
+
+        <!-- Multiple Choice -->
+        <div class="contentBlock">
+            <div class="blockHeader">
+                Multiple Choice
+            </div>
+            <div class="blockContent">
+                <ul>
+                    <li>Question on a single line.</li>
+                    <li>Answers immediately following the question.</li>
+                    <li>Asterisk (*) in front of the correct choice.</li>
+                </ul>
+                <div class="blockExample">
+                    <table width="100%">
+                        <tr>
+                            <td style="width:50%">
+                                <b>Example:</b><br />
+                                <p>1. Which of the following is a prime number?<br />
+                                    a) 4<br />
+                                    *b) 5<br />
+                                    c) 6
+                                </p>
+                            </td>
+                            <td style="width:50%">
+                                <b>Alternate method:</b>
+                                <p>
+                                    MC<br />
+                                    Which of the following is a prime number?<br />
+                                    4<br />
+                                    *5<br />
+                                    6<br />
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- True or false questions -->
+        <div class="contentBlock">
+            <div class="blockHeader">
+                True/False
+            </div>
+            <div class="blockContent">
+                    <ul>
+                    <li>Question on a single line</li>
+                    <li>The answer on the next line. Can be any of the following: T, t, True, TRUE, true, F, f, False, FALSE, false</li>
+                </ul>
+                <div class="blockExample">
+                    <table width="100%">
+                        <tr>
+                            <td style="width:50%">
+                                <b>Example:</b>
+                                <p> 
+                                    1. 3 is a prime number. <br />
+                                    True
+                                </p>
+                                <br/>                            
+                            </td>
+                            <td style="width:50%">
+                                <b>Alternate method:</b>
+                                <p>
+                                    TF<br />
+                                    3 is a prime number. <br />
+                                    True<br />
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Multiple Answer -->
+        <div class="contentBlock">
+            <div class="blockHeader">
+                Multiple Answer
+            </div>
+            <div class="blockContent">
+                <ul>
+                    <li>Exactly the same as multiple choice, only with multiple answers marked correct. </li>
+                    <li>Question on a single line.</li>
+                    <li>Answers immediately following the question.</li>
+                    <li>Asterisk (*) in front of all correct choices.</li>
+                </ul>
+                <div class="blockExample">
+                    <table width="100%">
+                        <tr>
+                            <td style="width:50%">
+                                <b>Example:</b>
+                                <p>
+                                    1. Which of the following is a prime number?<br />
+                                    *a) 2 <br />
+                                    *b) 3 <br />
+                                        c) 4 <br />
+                                    *d) 5
+                                </p>                           
+                            </td>
+                            <td style="width:50%">
+                                <b>Alternate method:</b>
+                                <p>
+                                    MA<br />
+                                    Which of the following is a prime number?<br />
+                                    *2<br />
+                                    *3<br />
+                                    4<br />
+                                    *5<br />
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Essay questions -->
+        <div class="contentBlock">
+            <div class="blockHeader">
+                Essay
+            </div>
+            <div class="blockContent">
+                
+                <ul>
+                    <li>This is simply a question with no answer given.</li>
+                </ul>
+                <div class="blockExample">
+                    <table width="100%">
+                        <tr>
+                            <td style="width:50%">
+                                 <b>Example:</b>
+                                <p>
+                                    1. Tell me your life story.
+                                </p>                              
+                            </td>
+                            <td style="width:50%">
+                                <b>Alternate method:</b>
+                                <p>
+                                    ES<br />
+                                    Tell me your life story<br />
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fill in the blank questions -->
+        <div class="contentBlock">
+            <div class="blockHeader">
+                Fill in the blank
+            </div>
+            <div class="blockContent">
+                <ul>
+                    <li>Begin your question with the keyword: blank </li>
+                    <li>Leave a blank somewhere in the question.</li>
+                    <li>Give all of the possible correct answers.</li>
+                </ul>
+                <div class="blockExample">
+                    <table width="100%">
+                        <tr>
+                            <td style="width:50%">
+                                <b>Example:</b>
+                                <p>
+                                    blank 1. Two plus two equals _____.<br />
+                                    a. four<br />
+                                    b. 4
+                                </p>                           
+                            </td>
+                            <td style="width:50%">
+                                <b>Alternate method:</b>
+                                <p>
+                                    BL<br />
+                                    Christmas falls on December _ <br />
+                                    25th. <br />
+                                    25th <br />
+                                    25 <br />
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+		<!-- Matching questions -->
+        <div class="contentBlock">
+            <div class="blockHeader">
+                Matching
+            </div>
+            <div class="blockContent">
+                <ul>
+                    <li>Begin your question with the keyword: match </li>
+                    <li>For every answer there should be a slash between the answer and its match.</li>
+                </ul>
+                <div class="blockExample">
+                    <table width="100%">
+                        <tr>
+                            <td style="width:50%">
+                                <b>Example:</b>
+                                <p>
+									match 1. Match the chapters with their topics.<br />
+									a) Chapter 13/Exception Handling<br />
+									b) Chapter 16/File Processing<br />
+									c) Chapter 10/OOP & Classes<br />
+									d) Chapter 15/Chars, C-Strings, & the String Class<br />
+									e) Chapter 12/Not covered in this class<br />
+                                </p>                           
+                            </td>
+                            <td style="width:50%">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+		
+    </div>
+    </form>
+</body>
+</html>
