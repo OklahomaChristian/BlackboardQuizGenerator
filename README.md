@@ -23,3 +23,4 @@ Pull requests and suggestions welcome.
 Based on source code from [Algonquin College](http://algonquincollege.com) and modfied by 
 [Oklahoma Christian University](http://oc.edu).
 
+Released under a GNU GPLv3 License
